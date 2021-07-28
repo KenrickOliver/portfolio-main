@@ -15,7 +15,7 @@
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
-
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/fav.png" />
     <title>Kenrick Oliver</title>
   </head>
   <body>
@@ -80,12 +80,15 @@
               ></a>
             </div>
             <div class="home__img">
-              <img src="./assets/img/profile1.jpg" alt="" />
+              <img
+                src="assets/img/profile2.png"
+                alt="person programming illustration"
+              />
             </div>
             <!-- Hero data section -->
             <div class="home__data">
-              <h1 class="home__title">Hi, I'm Kenrick Oliver</h1>
-              <h3 class="home__subtitle">Frontend Web Developer</h3>
+              <h1 class="home__title">Hi, I'm Kenrick</h1>
+              <h3 class="home__subtitle">A Frontend Web Developer</h3>
               <p class="home__description">
                 I build stuff....but on the web. Hope I will eventually come up
                 with a really creative description to put up here. Until then i
@@ -108,12 +111,12 @@
       </section>
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
+      <section class="about section container" id="about">
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">Intro</span>
 
-        <div class="about__container">
-          <img class="about__image" src="./assets/img/portfolio2.jpg" alt="" />
+        <div class="about__container container grid">
+          <img class="about__image" src="./assets/img/profile4.png" alt="" />
           <div class="about__data">
             <p class="about__description">
               I am a Front End web developer who does stuff from time to time. I
@@ -133,12 +136,12 @@
       <section class="skills section" id="skills">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle"
-          >Most of my skill are Front end related</span
+          >The majority of my skills are focused on Front end development</span
         >
         <div class="skills__container">
           <ul class="skills__list">
             <li class="skills__icon">
-              <i class="bx bxl-javascript"></i>JavaScrip
+              <i class="bx bxl-javascript"></i>JavaScript
             </li>
             <li class="skills__icon"><i class="bx bxl-html5"></i>HTML5</li>
             <li class="skills__icon"><i class="bx bxl-css3"></i>CSS3</li>
@@ -156,7 +159,96 @@
       <section class="services section" id="services"></section>
 
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Some of my recent projects</span>
+
+        <div class="portfolio__container container">
+          <!-- Project 1 -->
+          <div class="portfolio__content grid">
+            <img
+              src="./assets/img/portfolio1.jpg"
+              alt="First project"
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Project 1</h3>
+              <p class="portfolio__description">
+                A personal productivity Web App, some of the features include:
+              </p>
+              <ul class="portfolio__details">
+                <li>
+                  Consuming data from 3rd party APIs to fetch random quotes
+                </li>
+                <li>
+                  using the built in geolocation web API to get current user
+                  position to then fetch the weather based on location
+                </li>
+                <li>
+                  Simple CRUD functionality with the ability to
+                  create/edit/delete notes
+                </li>
+                <li>Notes also get saved to localStorage(persistent data)</li>
+                <li>Fully Responsive Web App</li>
+              </ul>
+              <a
+                href="#"
+                class="button button--flex button--small portfolio__button"
+              >
+                Demo <i class="bx bx-right-arrow-alt button__icon"></i>
+              </a>
+              <a
+                href="#"
+                class="button button--flex button--small portfolio__button"
+              >
+                Code <i class="bx bxl-github button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="portfolio__content grid">
+            <img
+              src="./assets/img/portfolio2.jpg"
+              alt="First project"
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Project 2</h3>
+              <p class="portfolio__description">
+                A personal productivity Web App, some of the features include:
+              </p>
+              <ul class="portfolio__details">
+                <li>
+                  Consuming data from 3rd party APIs to fetch random quotes
+                </li>
+                <li>
+                  using the built in geolocation web API to get current user
+                  position to then fetch the weather based on location
+                </li>
+                <li>
+                  Simple CRUD functionality with the ability to
+                  create/edit/delete notes
+                </li>
+                <li>Notes also get saved to localStorage(persistent data)</li>
+                <li>Fully Responsive Web App</li>
+              </ul>
+              <a
+                href="#"
+                class="button button--flex button--small portfolio__button"
+              >
+                Demo <i class="bx bx-right-arrow-alt button__icon"></i>
+              </a>
+              <a
+                href="#"
+                class="button button--flex button--small portfolio__button"
+              >
+                Code <i class="bx bxl-github button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- third project goes here -->
+        </div>
+      </section>
 
       <!--==================== PROJECT IN MIND ====================-->
       <section class="project section"></section>
