@@ -262,7 +262,7 @@ img {
 
 .home__img img {
   border-radius: 50%;
-  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+  /* box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff; */
 }
 
 .home__data {
@@ -277,7 +277,7 @@ img {
   font-size: var(--h3-font-size);
   color: var(--text-color);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-1-5);
 }
 
 .home__description {
@@ -390,7 +390,7 @@ img {
 }
 
 .portfolio__title {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   margin-bottom: var(--mb-0-5);
   color: var(--first-color-alt);
   font-weight: var(--font-semi-bold);
@@ -414,12 +414,48 @@ img {
   transform: translateX(0.25rem);
 }
 
+.portfolio__button2:hover .button__icon {
+  transform: translateY(-0.25rem);
+}
+
 /*==================== PROJECT IN MIND ====================*/
 
 /*==================== TESTIMONIAL ====================*/
 
 /*==================== CONTACT ME ====================*/
+.contact__container {
+  row-gap: 3rem;
+}
 
+.contact__imgarea {
+  width: 250px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+  /* margin-bottom: var(--mb-0-5); */
+}
+
+.contact__content {
+  background-color: var(--input-color);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.contact__label {
+  font-size: var(--smaller-font-size);
+  color: var(--title-color);
+}
+
+.contact__input {
+  width: 100%;
+  background-color: var(--input-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
 /*==================== FOOTER ====================*/
 
 /*========== SCROLL UP ==========*/
