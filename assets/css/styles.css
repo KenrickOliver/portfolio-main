@@ -515,10 +515,31 @@ img {
   color: #fff;
 }
 
-/*========== SCROLL UP ==========*/
+/*========== Scroll Up ==========*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--first-color);
+  opacity: 0.8;
+  padding: 0.3rem 0.3rem 0;
+  border-radius: 0.2rem;
+  z-index: var(--z-tooltip);
+  transition: 0.4s;
+}
 
+.scrollup:hover {
+  background-color: var(--first-color-alt);
+}
+
+.scrollup__icon {
+  font-size: 1.6rem;
+  color: #fff;
+}
 /* Show scroll */
-
+.show-scroll {
+  bottom: 5rem;
+}
 /*========== SCROLL BAR ==========*/
 
 /*==================== MEDIA QUERIES ====================*/
