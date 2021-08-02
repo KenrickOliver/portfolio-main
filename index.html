@@ -54,6 +54,9 @@
           <i class="bx bx-x nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+          <!-- Dark mode button -->
+          <i class='bx bx-moon change-theme' id="theme-button"></i>
+
           <div class="nav__toggle" id="nav-toggle">
             <i class="bx bx-customize"></i>
           </div>
@@ -81,6 +84,7 @@
             </div>
             <div class="home__img">
               <img
+                class="dark-theme"
                 src="assets/img/profile2.png"
                 alt="person programming illustration"
               />
@@ -90,20 +94,21 @@
               <h1 class="home__title">Hi, I'm Kenrick</h1>
               <h3 class="home__subtitle">A Frontend Web Developer</h3>
               <p class="home__description">
-                I build stuff....but on the web. I make peoples designs and
+                I build stuff....but on the web. <br>
+                I make peoples designs and
                 ideas come to life.
               </p>
               <a href="" class="button button--flex">
                 Contact Me
                 <i class="bx bx-paper-plane nav__icon button__icon"></i>
               </a>
-            </div>
-            <!-- Scroll down point -->
-            <div class="home__scroll">
-              <a href="#about" class="home__scroll-button button--flex">
-                <span class="home__scroll-name">Find out more</span>
-                <i class="bx bxs-hand-down home__scroll-mouse"></i>
-              </a>
+              <!-- scroll down point -->
+              <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                  <span class="home__scroll-name">Find out more</span>
+                  <i class="bx bxs-hand-down home__scroll-mouse"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -115,7 +120,7 @@
         <span class="section__subtitle">Intro</span>
 
         <div class="about__container container grid">
-          <img class="about__image" src="./assets/img/profile4.png" alt="" />
+          <img class="about__image dark-theme" src="./assets/img/profile4.png" alt="" />
           <div class="about__data">
             <p class="about__description">
               I am a Front End web developer who does stuff from time to time. I
@@ -262,7 +267,7 @@
 
         <div class="contact__container container grid">
           <div class="contact__imgarea">
-            <img src="./assets/img/contact.png" alt="" />
+            <img class="dark-theme contact__img" src="./assets/img/contact.png" alt="" />
           </div>
           <form action="" class="contact__form grid">
             <div class="contact__inputs grid">
