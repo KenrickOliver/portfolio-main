@@ -266,11 +266,12 @@ img {
 /*==================== HOME ====================*/
 .home__container {
   gap: 1rem;
+  margin-bottom: var(--mb-3);
 }
 
 .home__content {
   grid-template-columns: 1fr 3fr;
-  padding-top: 3.5rem;
+  padding-top: 2.5rem;
   align-items: center;
 }
 
@@ -292,7 +293,6 @@ img {
 .home__img img {
   border-radius: 50%;
   width: 100%;
-  /* box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff; */
 }
 
 .home__data {
@@ -397,11 +397,6 @@ img {
 .skills__icon:hover {
   color: var(--first-color);
 }
-/*==================== QUALIFICATION ====================*/
-
-/*==================== SERVICES ====================*/
-
-/* Active Modal */
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__content {
@@ -450,10 +445,6 @@ img {
 .portfolio__button2:hover .button__icon {
   transform: translateY(-0.25rem);
 }
-
-/*==================== PROJECT IN MIND ====================*/
-
-/*==================== TESTIMONIAL ====================*/
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
@@ -760,7 +751,7 @@ img {
     font-size: 2rem;
   }
 }
-/* @media (min-width: 768px) and (min-width: 1600px) {
+@media (min-width: 768px) and (min-width: 1600px) {
   main {
     display: flex;
     flex-direction: column;
@@ -769,4 +760,4 @@ img {
   .container {
     max-width: 1200px;
   }
-} */
+}
