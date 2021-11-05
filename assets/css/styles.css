@@ -481,7 +481,19 @@ img {
   font-size: var(--normal-font-size);
   border: none;
   outline: none;
-  padding: 0.25rem 0.5rem 0.5rem 0;
+  padding: 0.25rem 0.5rem 0.2rem 0;
+}
+/*check this later*/
+.contact__button {
+  border: none;
+  padding: 0.75rem;
+  font-size: var(--normal-font-size);
+}
+
+.bx-paper-plane {
+  padding-left: 0.5rem;
+  padding-right: 0.25rem;
+  font-size: 1rem;
 }
 /*==================== FOOTER ====================*/
 .footer {
