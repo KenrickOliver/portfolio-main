@@ -414,6 +414,11 @@ img {
   width: 265px;
   border-radius: 0.5rem;
   justify-self: center;
+  transition: all .2s ease-in-out;
+}
+
+.portfolio__img:hover {
+  transform: scale(1.2);
 }
 
 .portfolio__title {
@@ -434,8 +439,14 @@ img {
 }
 
 .portfolio__button,
-.portfolio__button2 {
+.portfolio__button2,
+.portfolio__button3 {
   margin: var(--mb-0-5);
+}
+
+.portfolio__button3 {
+  pointer-events: none;
+  background-color: var(--text-color-light);
 }
 
 .portfolio__button:hover .button__icon {
@@ -444,6 +455,11 @@ img {
 
 .portfolio__button2:hover .button__icon {
   transform: translateY(-0.25rem);
+}
+
+.protfolio__special {
+  font-size: var(--smaller-font-size);
+  color: red;
 }
 
 /*==================== CONTACT ME ====================*/
@@ -488,6 +504,7 @@ img {
   border: none;
   padding: 0.75rem;
   font-size: var(--normal-font-size);
+  cursor: pointer;
 }
 
 .bx-paper-plane {
