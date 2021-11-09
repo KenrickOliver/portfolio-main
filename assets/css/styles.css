@@ -263,7 +263,7 @@ img {
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
-/*==================== HOME ====================*/
+/*==================== HOME section ====================*/
 .home__container {
   gap: 1rem;
   margin-bottom: var(--mb-3);
@@ -301,6 +301,7 @@ img {
 
 .home__title {
   font-size: var(--big-font-size);
+  margin-bottom: var(--mb-1);
 }
 
 .home__subtitle {
@@ -366,7 +367,7 @@ img {
   display: inline-flex;
   align-items: center;
 }
-/*==================== ABOUT ====================*/
+/*==================== ABOUT section ====================*/
 .about__image {
   /* width: 250px; */
   border-radius: 0.5rem;
@@ -379,7 +380,7 @@ img {
   margin-bottom: var(--mb-2-5);
 }
 
-/*==================== SKILLS ====================*/
+/*==================== SKILLS section ====================*/
 .skills__list {
   display: flex;
   flex-direction: row;
@@ -398,7 +399,7 @@ img {
   color: var(--first-color);
 }
 
-/*==================== PORTFOLIO ====================*/
+/*==================== PORTFOLIO section ====================*/
 .portfolio__content {
   padding: 1.5rem;
   box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
@@ -462,7 +463,7 @@ img {
   color: red;
 }
 
-/*==================== CONTACT ME ====================*/
+/*==================== CONTACT ME section ====================*/
 .contact__container {
   row-gap: 3rem;
 }
@@ -497,7 +498,8 @@ img {
   font-size: var(--normal-font-size);
   border: none;
   outline: none;
-  padding: 0.25rem 0.5rem 0.2rem 0;
+  padding: 0.25rem 0.3rem 0.2rem 0;
+  
 }
 /*check this later*/
 .contact__button {
